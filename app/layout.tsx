@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     title: title,
     description: description,
   },
+  other: {
+    "google-site-verification": "O9LznNMD8ZlKl8vfJC3vjmM4QloJhilgtZnJYQ9ekHg",
+  },
   authors: [{ name: "byPandaDev", url: "https://bypanda.dev" }],
 }
 
