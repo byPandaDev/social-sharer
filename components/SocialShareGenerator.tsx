@@ -34,14 +34,15 @@ export default function SocialShareGenerator() {
                 <div>
                     <h2 className="text-2xl font-bold mb-2">Text in Ahref</h2>
                     <code>
-                        {'<a href={`https://x.com/intent/tweet?text=${text}`} target="_blank" rel="noreferrer">Twitter</a>'} <br/>
-                        {'<a href={`https://threads.net/intent/post?&text=${text}`} target="_blank" rel="noreferrer">Threads</a>'} <br/>
-                        {'<a href={`https://web.whatsapp.com/send?text=${text}`} target="_blank" rel="noreferrer">Whatsapp</a>'} <br/>
-                        {'<a href={`http://www.reddit.com/submit?&title=${text}`} target="_blank" rel="noreferrer">Reddit</a>'} <br/>
-                        {'<a href={`https://t.me/share/url&text=${text}`} target="_blank" rel="noreferrer">Telegram</a>'} <br/>
-                        {'<a href={`https://www.facebook.com/sharer/sharer.php?&quote=${text}`} target="_blank" rel="noreferrer">Facebook</a>'} <br/>
-                        {'<a href={`whatsapp://send?text=${text}`} target="_blank" rel="noreferrer">Whatsapp Mobile App</a>'} <br/>
-                        {'<a href={`tg://msg?&text=${text}`} target="_blank" rel="noreferrer">Telegram Mobile App</a>'} <br/>
+                        {`<a href="https://x.com/intent/tweet?text=${text}" target="_blank" rel="noreferrer">Twitter</a>`} <br/>
+                        {`<a href="https://threads.net/intent/post?&text=${text}" target="_blank" rel="noreferrer">Threads</a>`} <br/>
+                        {`<a href="https://web.whatsapp.com/send?text=${text}" target="_blank" rel="noreferrer">Whatsapp</a>`} <br/>
+                        {`<a href="http://www.reddit.com/submit?&title=${text}" target="_blank" rel="noreferrer">Reddit</a>`} <br/>
+                        {`<a href="https://t.me/share/url&text=${text}" target="_blank" rel="noreferrer">Telegram</a>`} <br/>
+                        {`<a href="https://www.facebook.com/sharer/sharer.php?&quote=${text}" target="_blank" rel="noreferrer">Facebook</a>`} <br/>
+
+                        {`<a href="whatsapp://send?text=${text}" target="_blank" rel="noreferrer">Whatsapp Mobile App</a>`} <br/>
+                        {`<a href="tg://msg?&text=${text}" target="_blank" rel="noreferrer">Telegram Mobile App</a>`}
 
                     </code>
                 </div>
